@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid #fff;
+  background-color: rgb(180, 131, 180);
+  border-radius: 13px;
+  color: #fff;
+  font-size: 1em;
+  padding: 1.5em 4.25em;
+}
+
+.btn:focus {
+  outline: none;
+}
